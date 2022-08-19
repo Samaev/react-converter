@@ -13,7 +13,7 @@ function App() {
       .then(taxesFromBank => {
           getTaxes(taxesFromBank)
               })}, [])
-
+  
   console.log(taxes);
   
   return (
